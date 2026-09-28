@@ -1,0 +1,16 @@
+{
+  "input": "<local path omitted>",
+  "input_sha256": "2f704f8caffe25c33e231e715e43bb8cb13d6a02b010b1feba441f28012385f1",
+  "input_protocol_hash": "0e36101531b2de62cbb24913832cdbfc88d158b1bb406752151ad1a1166803ac",
+  "bootstrap_n": 10000,
+  "cluster_unit": "dataset",
+  "reference": "platt_source",
+  "stability_variant": "platt_target_rsc",
+  "regime_variant": "platt_target_rass",
+  "primary_metrics": [
+    "brier",
+    "logloss"
+  ],
+  "complete_input": true,
+  "duplicate_key_rows": 0
+}

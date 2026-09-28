@@ -1,0 +1,95 @@
+{
+  "schema_version": 1,
+  "started_utc": "2026-09-17T05:04:12.435216+00:00",
+  "protocol": {
+    "datasets": [
+      "ecoli",
+      "yeast_me2",
+      "abalone_19",
+      "mammography",
+      "oil",
+      "spectrometer"
+    ],
+    "learners": [
+      "dt_leaf01",
+      "cat_iter500"
+    ],
+    "seeds": [
+      0,
+      1,
+      2
+    ],
+    "candidate_order": [
+      "none",
+      "random_q05",
+      "smote_q05_k5",
+      "support_smote_q05_k5"
+    ],
+    "policies": [
+      "none",
+      "random_q05",
+      "smote_q05_k5",
+      "support_smote_q05_k5",
+      "adaptive_rc"
+    ],
+    "sampling": {
+      "random_q05": {
+        "ratio": 0.5
+      },
+      "smote_q05_k5": {
+        "ratio": 0.5,
+        "k": 5
+      },
+      "support_smote_q05_k5": {
+        "ratio": 0.5,
+        "k": 5,
+        "min_support": 0.5
+      }
+    },
+    "selector_target_priors": [
+      0.05,
+      0.2,
+      0.5
+    ],
+    "majority_logloss_tolerance": 0.02,
+    "brier_tolerance": 0.005,
+    "scenarios": [
+      "iid",
+      "label_shift",
+      "label_shift",
+      "label_shift"
+    ],
+    "label_shift_target_priors": [
+      0.05,
+      0.2,
+      0.5
+    ],
+    "metrics": [
+      "auc",
+      "logloss",
+      "loss_minority",
+      "loss_majority",
+      "brier",
+      "ece_10"
+    ],
+    "ece_bins": 10,
+    "data_cache": "configured through SCIKIT_LEARN_DATA or the scikit-learn default data home",
+    "source": "https://zenodo.org/record/61452/files/benchmark-imbalanced-learn.tar.gz",
+    "primary_outputs_immutable": true
+  },
+  "protocol_hash": "4d2c4b1cbb62db364e8b88c4e0a43c912b99283959ac93ee8960c0c370296115",
+  "expected_fit_count": 36,
+  "expected_candidate_fits": 144,
+  "expected_raw_rows": 4320,
+  "runner_sha256": "ccff2ef67e1130ead8a6c6658466d5f7fe12c42f2ce55f903ed14b04f070ab70",
+  "adaptive_module_sha256": "4a8e96612fae649fb47a4d56268af0231d43721d6404c74a0a5d4e9711dde588",
+  "packages": {
+    "numpy": "2.4.4",
+    "pandas": "3.0.2",
+    "scikit-learn": "1.8.0",
+    "imbalanced-learn": "0.14.2",
+    "catboost": "1.2.10",
+    "scipy": "1.17.1"
+  },
+  "data_manifest_hash": "88916cad82e9cd2076e873f7d46e63afb4ac0bb9b29c80cb35c6e4b01c0b0410"
+}

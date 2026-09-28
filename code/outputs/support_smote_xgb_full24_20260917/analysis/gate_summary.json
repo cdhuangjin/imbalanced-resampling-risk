@@ -1,0 +1,25 @@
+{
+  "decision": "NO-GO",
+  "expected_fits": 480,
+  "observed_fits": 480,
+  "expected_raw_metric_rows": 4320,
+  "observed_raw_metric_rows": 4320,
+  "integrity_pass": true,
+  "candidate_utility_signal": true,
+  "positive_utility_signal": false,
+  "conditional_minority_signal": true,
+  "candidate_safety_failures": [
+    "support_smote_q05/brier"
+  ],
+  "practical_brier_margin": 0.01,
+  "practical_logloss_margin": 0.1,
+  "practical_utility_tolerance": 0.02,
+  "bootstrap_replicates": 10000,
+  "bootstrap_seed": 20260917,
+  "diagnostics": {
+    "fallback_rate": 0.05,
+    "mean_safe_fraction": 0.5162122444458138,
+    "mean_synthetic_rows": 264.09583333333336
+  },
+  "stage": "confirmation"
+}

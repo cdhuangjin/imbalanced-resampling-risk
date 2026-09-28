@@ -1,0 +1,20 @@
+{
+  "decision": "NO-GO",
+  "expected_fits": 90,
+  "observed_lgbm_fits": 90,
+  "observed_xgb_comparator_fits": 90,
+  "expected_raw_metric_rows": 810,
+  "observed_lgbm_raw_metric_rows": 810,
+  "observed_xgb_comparator_metric_rows": 810,
+  "integrity_pass": true,
+  "candidate_utility_signal": false,
+  "positive_utility_signal": false,
+  "conditional_minority_signal": false,
+  "candidate_safety_failures": [],
+  "practical_brier_margin": 0.01,
+  "practical_logloss_margin": 0.1,
+  "practical_utility_tolerance": 0.02,
+  "bootstrap_replicates": 10000,
+  "bootstrap_seed": 20260917,
+  "stage": "gate"
+}

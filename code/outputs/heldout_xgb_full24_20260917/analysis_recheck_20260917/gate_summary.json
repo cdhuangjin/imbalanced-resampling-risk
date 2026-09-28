@@ -1,0 +1,19 @@
+{
+  "decision": "NO-GO",
+  "expected_fits": 360,
+  "observed_fits": 360,
+  "expected_raw_metric_rows": 2880,
+  "observed_raw_metric_rows": 2880,
+  "integrity_pass": true,
+  "utility_signal": true,
+  "safety_failures": [
+    "random_q05/loss_majority",
+    "random_q05/brier",
+    "smote_q05_k5/brier"
+  ],
+  "practical_brier_margin": 0.01,
+  "practical_logloss_margin": 0.1,
+  "bootstrap_replicates": 10000,
+  "bootstrap_seed": 20260917,
+  "stage": "confirmation"
+}

@@ -1,0 +1,9 @@
+{
+  "status": "COMPLETE",
+  "fit_count": 720,
+  "expected_fit_count": 720,
+  "raw_rows": 216000,
+  "expected_raw_rows": 216000,
+  "protocol_hash": "7bf402c4ad46ef70f9fc7fd11d87ec80add7a63b8ef527945986e25aed0c5a5d",
+  "data_manifest_hash": "8f7489bc37ca8a6b39a43677facaf2850043e7bb26f79f8ad88c20ca02add604"
+}

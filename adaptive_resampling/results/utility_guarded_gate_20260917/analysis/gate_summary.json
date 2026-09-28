@@ -1,0 +1,121 @@
+{
+  "decision": "NO-GO",
+  "integrity_pass": true,
+  "expected_fits": 36,
+  "observed_fits": 36,
+  "expected_raw_metric_rows": 5040,
+  "observed_raw_metric_rows": 5040,
+  "conditions": {
+    "selection_rates": {
+      "abalone_19": 0.0,
+      "ecoli": 0.0,
+      "mammography": 0.0,
+      "oil": 0.0,
+      "spectrometer": 0.0,
+      "yeast_me2": 0.0
+    },
+    "coverage_task_count": 0,
+    "utility_vs_none_ci_low": 0.0,
+    "utility_vs_none_ci_high": 0.0,
+    "utility_vs_none_pass": false,
+    "utility_vs_smote_ci_low": -0.00789915314572595,
+    "utility_vs_smote_ci_high": 0.01888369705395349,
+    "utility_vs_smote_pass": false,
+    "majority_logloss_ci_high": 0.0,
+    "majority_logloss_pass": true,
+    "brier_ci_high": 0.0,
+    "brier_pass": true,
+    "duplicate_keys": 0
+  },
+  "summaries": [
+    {
+      "candidate": "utility_guarded",
+      "reference": "none",
+      "metric": "decision_utility_c5",
+      "mean": 0.0,
+      "ci_low": 0.0,
+      "ci_high": 0.0,
+      "n_tasks": 6,
+      "task_deltas": {
+        "abalone_19": 0.0,
+        "ecoli": 0.0,
+        "mammography": 0.0,
+        "oil": 0.0,
+        "spectrometer": 0.0,
+        "yeast_me2": 0.0
+      }
+    },
+    {
+      "candidate": "utility_guarded",
+      "reference": "smote_q05_k5",
+      "metric": "decision_utility_c5",
+      "mean": 0.005118666954137344,
+      "ci_low": -0.00789915314572595,
+      "ci_high": 0.01888369705395349,
+      "n_tasks": 6,
+      "task_deltas": {
+        "abalone_19": 0.0033891547049441847,
+        "ecoli": 0.03431372549019596,
+        "mammography": -0.005215318134406199,
+        "oil": 0.010638297872340283,
+        "spectrometer": 0.007788161993769628,
+        "yeast_me2": -0.0202020202020198
+      }
+    },
+    {
+      "candidate": "utility_guarded",
+      "reference": "none",
+      "metric": "loss_majority",
+      "mean": 0.0,
+      "ci_low": 0.0,
+      "ci_high": 0.0,
+      "n_tasks": 6,
+      "task_deltas": {
+        "abalone_19": 0.0,
+        "ecoli": 0.0,
+        "mammography": 0.0,
+        "oil": 0.0,
+        "spectrometer": 0.0,
+        "yeast_me2": 0.0
+      }
+    },
+    {
+      "candidate": "utility_guarded",
+      "reference": "none",
+      "metric": "brier",
+      "mean": 0.0,
+      "ci_low": 0.0,
+      "ci_high": 0.0,
+      "n_tasks": 6,
+      "task_deltas": {
+        "abalone_19": 0.0,
+        "ecoli": 0.0,
+        "mammography": 0.0,
+        "oil": 0.0,
+        "spectrometer": 0.0,
+        "yeast_me2": 0.0
+      }
+    },
+    {
+      "candidate": "utility_guarded",
+      "reference": "none",
+      "metric": "loss_minority",
+      "mean": 0.0,
+      "ci_low": 0.0,
+      "ci_high": 0.0,
+      "n_tasks": 6,
+      "task_deltas": {
+        "abalone_19": 0.0,
+        "ecoli": 0.0,
+        "mammography": 0.0,
+        "oil": 0.0,
+        "spectrometer": 0.0,
+        "yeast_me2": 0.0
+      }
+    }
+  ],
+  "bootstrap_replicates": 10000,
+  "bootstrap_seed": 20260917,
+  "input": "<local path omitted>",
+  "created_utc": "2026-09-17T05:21:35.168982+00:00"
+}

@@ -1,0 +1,4 @@
+scenario,severity,candidate,reference,metric,mean_delta,ci_low,ci_high,n_tasks
+iid,0,adaptive_rc,smote_q05_k5,loss_majority,-0.20265228503305344,-0.3293932561312202,-0.09401200707770667,6
+iid,0,adaptive_rc,smote_q05_k5,brier,-0.014043060799814882,-0.020443473215432273,-0.008501507982465543,6
+iid,0,adaptive_rc,none,loss_minority,-0.027768505757757272,-0.06119656193447726,0.0,6

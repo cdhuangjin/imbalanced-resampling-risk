@@ -1,0 +1,54 @@
+{
+  "created_utc": "2026-09-15T00:17:59.155856+00:00",
+  "main_output": "outputs\\main_fixed_iid_20260914",
+  "shift_output": "outputs\\shift_stress_20260915",
+  "main_raw_rows": 5760,
+  "main_datasets": [
+    "abalone",
+    "abalone_19",
+    "arrhythmia",
+    "car_eval_34",
+    "car_eval_4",
+    "coil_2000",
+    "ecoli",
+    "letter_img",
+    "libras_move",
+    "mammography",
+    "oil",
+    "optical_digits",
+    "ozone_level",
+    "pen_digits",
+    "satimage",
+    "scene",
+    "sick_euthyroid",
+    "solar_flare_m0",
+    "spectrometer",
+    "thyroid_sick",
+    "us_crime",
+    "wine_quality",
+    "yeast_me2",
+    "yeast_ml8"
+  ],
+  "main_seeds": [
+    0,
+    1,
+    2,
+    3,
+    4
+  ],
+  "bootstrap_replicates": 10000,
+  "cluster_unit": "dataset",
+  "holm_family": "learner x method secondary endpoints",
+  "mechanism_variables": [
+    "minority_support",
+    "minority_fraction",
+    "overlap5"
+  ],
+  "packages": {
+    "numpy": "2.4.4",
+    "pandas": "3.0.2",
+    "scipy": "1.17.1",
+    "scikit-learn": "1.8.0",
+    "statsmodels": "0.14.6"
+  }
+}

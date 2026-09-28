@@ -1,0 +1,218 @@
+{
+  "abalone": {
+    "n_samples": 4177,
+    "n_features": 10,
+    "class_counts": {
+      "-1": 3786,
+      "1": 391
+    },
+    "data_hash": "e3b08a9758d5ff66dd6ab1c8fe09cade76c1af21fd370dc0f0feb17e16d4811e"
+  },
+  "abalone_19": {
+    "n_samples": 4177,
+    "n_features": 10,
+    "class_counts": {
+      "-1": 4145,
+      "1": 32
+    },
+    "data_hash": "687933fab91bf92170f8a680ac395fe99f92ae0a5030cace630d61e81a9dad57"
+  },
+  "arrhythmia": {
+    "n_samples": 452,
+    "n_features": 278,
+    "class_counts": {
+      "-1": 427,
+      "1": 25
+    },
+    "data_hash": "cbe1caebccfa41f8385b21e18a7f0c4f974d201e2cbf9829116f7fd735aa8243"
+  },
+  "car_eval_34": {
+    "n_samples": 1728,
+    "n_features": 21,
+    "class_counts": {
+      "-1": 1594,
+      "1": 134
+    },
+    "data_hash": "f3780d07aa3527be8cfe303118ddf84d1bfb5fb04358165b6c80458dec138fa3"
+  },
+  "car_eval_4": {
+    "n_samples": 1728,
+    "n_features": 21,
+    "class_counts": {
+      "-1": 1663,
+      "1": 65
+    },
+    "data_hash": "f0a4f2229f5f03bbe5b0399ac6f6aea9f3be3c9eddfe2cd61bc0ca0945ac462d"
+  },
+  "coil_2000": {
+    "n_samples": 9822,
+    "n_features": 85,
+    "class_counts": {
+      "-1": 9236,
+      "1": 586
+    },
+    "data_hash": "f8344fd503e70c7946bd82aa6eef739d6a1e6210eb6227bf0310c9fb1176c153"
+  },
+  "ecoli": {
+    "n_samples": 336,
+    "n_features": 7,
+    "class_counts": {
+      "-1": 301,
+      "1": 35
+    },
+    "data_hash": "71bfe23e24473d43252ee8421ff82632a99829db89c1085eba57e7720aac6f39"
+  },
+  "letter_img": {
+    "n_samples": 20000,
+    "n_features": 16,
+    "class_counts": {
+      "-1": 19266,
+      "1": 734
+    },
+    "data_hash": "af7ffc486310d5a6b684167eba2a7fdcd4db70ac4bd4f7db538de425ff1e1f46"
+  },
+  "libras_move": {
+    "n_samples": 360,
+    "n_features": 90,
+    "class_counts": {
+      "-1": 336,
+      "1": 24
+    },
+    "data_hash": "99ea444c4d3d357dea0cedabd5027eda4fdb2516bf47f161fce38861f3adec9b"
+  },
+  "mammography": {
+    "n_samples": 11183,
+    "n_features": 6,
+    "class_counts": {
+      "-1": 10923,
+      "1": 260
+    },
+    "data_hash": "d2276a67226ca457d81e4ce73a04e374cc8a15906957b5c424af1ed2f9c57585"
+  },
+  "oil": {
+    "n_samples": 937,
+    "n_features": 49,
+    "class_counts": {
+      "-1": 896,
+      "1": 41
+    },
+    "data_hash": "201ddbf033c5a1700f7463b0dd4ad01f66f2368d6622ff3535f8ab56e8736835"
+  },
+  "optical_digits": {
+    "n_samples": 5620,
+    "n_features": 64,
+    "class_counts": {
+      "-1": 5066,
+      "1": 554
+    },
+    "data_hash": "d2052fdb30bb96216373d8b3c279cb772cf036a0dd808780f6b05b188a24021c"
+  },
+  "ozone_level": {
+    "n_samples": 2536,
+    "n_features": 72,
+    "class_counts": {
+      "-1": 2463,
+      "1": 73
+    },
+    "data_hash": "7998d037dffd859bfaea3283a15abd61b50ae52cfcb4e897876cc608662979d6"
+  },
+  "pen_digits": {
+    "n_samples": 10992,
+    "n_features": 16,
+    "class_counts": {
+      "-1": 9937,
+      "1": 1055
+    },
+    "data_hash": "3f3d80eb900492663b41f346fbcf3eb968ac559e409b998bf11042738ae8c742"
+  },
+  "satimage": {
+    "n_samples": 6435,
+    "n_features": 36,
+    "class_counts": {
+      "-1": 5809,
+      "1": 626
+    },
+    "data_hash": "0481ea101b7478ed9c17fe7a66018ed1184b8371834fd10b2f77f8481dda1ce6"
+  },
+  "scene": {
+    "n_samples": 2407,
+    "n_features": 294,
+    "class_counts": {
+      "-1": 2230,
+      "1": 177
+    },
+    "data_hash": "0327d6789e0fcf372865594ebe14a602203b1cbf00436fec49326c3152d8bf82"
+  },
+  "sick_euthyroid": {
+    "n_samples": 3163,
+    "n_features": 42,
+    "class_counts": {
+      "-1": 2870,
+      "1": 293
+    },
+    "data_hash": "9ecc758bd696a1ca19072ac2951ff18896872a1994be5d1c5b3bbd3a347f4028"
+  },
+  "solar_flare_m0": {
+    "n_samples": 1389,
+    "n_features": 32,
+    "class_counts": {
+      "-1": 1321,
+      "1": 68
+    },
+    "data_hash": "175f4f32edf662492ef9dcac780d1228c31b487fff08a1699e72fd1e6ed280e4"
+  },
+  "spectrometer": {
+    "n_samples": 531,
+    "n_features": 93,
+    "class_counts": {
+      "-1": 486,
+      "1": 45
+    },
+    "data_hash": "ef5337a1b75fedd181971fe1d40c9a3810e50ae5d3ba236e2fca9d0bfeff8d6a"
+  },
+  "thyroid_sick": {
+    "n_samples": 3772,
+    "n_features": 52,
+    "class_counts": {
+      "-1": 3541,
+      "1": 231
+    },
+    "data_hash": "c94ef9b7bb3b39e754d2337f7dd48209bb398eb9210edae199c1a14e1f1b5087"
+  },
+  "us_crime": {
+    "n_samples": 1994,
+    "n_features": 100,
+    "class_counts": {
+      "-1": 1844,
+      "1": 150
+    },
+    "data_hash": "efa18ef5822dc11cc92efac7432df8e508ecff52e54f9e4b4c7bad73417ff499"
+  },
+  "wine_quality": {
+    "n_samples": 4898,
+    "n_features": 11,
+    "class_counts": {
+      "-1": 4715,
+      "1": 183
+    },
+    "data_hash": "78c275b869a4fbaaf05ef31973c728d41e0980a58f567eb70ff4f4d3395d2809"
+  },
+  "yeast_me2": {
+    "n_samples": 1484,
+    "n_features": 8,
+    "class_counts": {
+      "-1": 1433,
+      "1": 51
+    },
+    "data_hash": "d6dc306cc74ca68e9b374dd123ffe5e3abac77f4539e117c06dcfe0a0f567318"
+  },
+  "yeast_ml8": {
+    "n_samples": 2417,
+    "n_features": 103,
+    "class_counts": {
+      "-1": 2239,
+      "1": 178
+    },
+    "data_hash": "e4b442522ab7f8b4c97dded5d01bed989adc89f92ddeed94cb56417aa60f583d"
+  }
+}

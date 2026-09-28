@@ -1,0 +1,15 @@
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+*.log
+.env
+.env.*
+**/data_cache/
+**/scikit_learn_data/
+**/raw_results.csv
+figures/*.pdf
+figures/*.png
+figures/*.tiff
+figures/*.svg

@@ -1,0 +1,13 @@
+learner,scenario,severity,target_positive_prior,covariate_shift_strength_sd,delta_brier,delta_majority_logloss
+DT,label_shift,0,0.05,,0.0197581978827752,
+DT,label_shift,1,0.2,,-0.0118875929450314,
+DT,label_shift,2,0.5,,-0.0751791746006448,
+CatBoost,label_shift,0,0.05,,0.002402119297649,
+CatBoost,label_shift,1,0.2,,-0.0245366935387533,
+CatBoost,label_shift,2,0.5,,-0.0784143192115581,
+DT,covariate_shift,0,,0.0,,0.437869450822059
+DT,covariate_shift,1,,1.0,,0.5705317384078804
+DT,covariate_shift,2,,2.0,,1.177679853351716
+CatBoost,covariate_shift,0,,0.0,,0.0347980552967149
+CatBoost,covariate_shift,1,,1.0,,0.0747992248069503
+CatBoost,covariate_shift,2,,2.0,,0.1284729152740198

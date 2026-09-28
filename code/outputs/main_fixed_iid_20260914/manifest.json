@@ -1,0 +1,77 @@
+{
+  "schema_version": 1,
+  "started_utc": "2026-09-14T15:02:22.347879+00:00",
+  "protocol": {
+    "datasets": [
+      "abalone",
+      "abalone_19",
+      "arrhythmia",
+      "car_eval_34",
+      "car_eval_4",
+      "coil_2000",
+      "ecoli",
+      "letter_img",
+      "libras_move",
+      "mammography",
+      "oil",
+      "optical_digits",
+      "ozone_level",
+      "pen_digits",
+      "satimage",
+      "scene",
+      "sick_euthyroid",
+      "solar_flare_m0",
+      "spectrometer",
+      "thyroid_sick",
+      "us_crime",
+      "wine_quality",
+      "yeast_me2",
+      "yeast_ml8"
+    ],
+    "learners": [
+      "dt",
+      "cat"
+    ],
+    "methods": [
+      "none",
+      "random",
+      "smote"
+    ],
+    "seeds": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "scenarios": [
+      "iid"
+    ],
+    "severities": [
+      0
+    ],
+    "metrics": [
+      "auc",
+      "ap",
+      "logloss",
+      "loss_minority",
+      "loss_majority",
+      "brier",
+      "f1_fixed",
+      "f1_tuned"
+    ],
+    "data_cache": "configured through SCIKIT_LEARN_DATA or the scikit-learn default data home",
+    "source": "https://zenodo.org/record/61452/files/benchmark-imbalanced-learn.tar.gz"
+  },
+  "protocol_hash": "c06919c7d5c102de312c93c6e6d068dcac09294bef8c0899334379ad243a4d8d",
+  "expected_fit_count": 720,
+  "expected_metric_rows": 5760,
+  "packages": {
+    "numpy": "2.4.4",
+    "pandas": "3.0.2",
+    "scikit-learn": "1.8.0",
+    "imbalanced-learn": "0.14.2",
+    "catboost": "1.2.10"
+  },
+  "data_manifest_hash": "8f7489bc37ca8a6b39a43677facaf2850043e7bb26f79f8ad88c20ca02add604"
+}

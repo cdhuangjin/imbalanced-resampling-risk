@@ -1,0 +1,8 @@
+branch,integrity,candidate_signal,safety_pass,coverage,decision
+V6 held-out XGB,1,1,0,1.0,NO-GO
+V7 cost-weighted XGB,1,1,0,1.0,NO-GO
+V8 BRF,1,1,0,1.0,NO-GO
+V9 LightGBM,1,0,1,1.0,NO-GO
+V10 support-SMOTE,1,1,0,1.0,NO-GO
+V11 confidence-guarded,1,1,1,0.16666666666666666,NO-GO
+V12 utility-first,1,0,1,0.0,NO-GO

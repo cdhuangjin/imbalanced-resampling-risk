@@ -1,0 +1,6 @@
+candidate,reference,metric,mean,ci_low,ci_high,n_tasks
+utility_guarded,none,decision_utility_c5,0.0,0.0,0.0,6
+utility_guarded,smote_q05_k5,decision_utility_c5,0.005118666954137344,-0.00789915314572595,0.01888369705395349,6
+utility_guarded,none,loss_majority,0.0,0.0,0.0,6
+utility_guarded,none,brier,0.0,0.0,0.0,6
+utility_guarded,none,loss_minority,0.0,0.0,0.0,6

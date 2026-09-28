@@ -1,0 +1,16 @@
+panel,stage,label,evidence
+a,1,24 public binary tabular tasks,E001;E002;E023
+a,2,Fixed train / validation / test split,E001;E002;E023
+a,3,5 fixed seeds; resampling in training only,E001;E002;E023
+a,4,Within-task aggregation,E001;E002;E023
+a,5,"10,000 paired task-cluster bootstrap replicates",E001;E002;E023
+b,1,Ranking: ΔAUC (higher is better),E001;E002;E023
+b,2,Minority logloss (lower is better),E001;E002;E023
+b,3,Majority logloss (lower is better),E001;E002;E023
+b,4,Brier score (lower is better),E001;E002;E023
+b,5,Held-out utility (higher is better),E001;E002;E023
+c,1,Completeness,E011;E013;E021;E022
+c,2,Candidate signal,E011;E013;E021;E022
+c,3,Adverse-risk safety,E011;E013;E021;E022
+c,4,Non-baseline coverage,E011;E013;E021;E022
+c,5,Advance only if all criteria are satisfied,E011;E013;E021;E022

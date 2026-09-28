@@ -1,0 +1,56 @@
+{
+  "ecoli": {
+    "n_samples": 336,
+    "n_features": 7,
+    "class_counts": {
+      "-1": 301,
+      "1": 35
+    },
+    "data_hash": "71bfe23e24473d43252ee8421ff82632a99829db89c1085eba57e7720aac6f39"
+  },
+  "yeast_me2": {
+    "n_samples": 1484,
+    "n_features": 8,
+    "class_counts": {
+      "-1": 1433,
+      "1": 51
+    },
+    "data_hash": "d6dc306cc74ca68e9b374dd123ffe5e3abac77f4539e117c06dcfe0a0f567318"
+  },
+  "abalone_19": {
+    "n_samples": 4177,
+    "n_features": 10,
+    "class_counts": {
+      "-1": 4145,
+      "1": 32
+    },
+    "data_hash": "687933fab91bf92170f8a680ac395fe99f92ae0a5030cace630d61e81a9dad57"
+  },
+  "mammography": {
+    "n_samples": 11183,
+    "n_features": 6,
+    "class_counts": {
+      "-1": 10923,
+      "1": 260
+    },
+    "data_hash": "d2276a67226ca457d81e4ce73a04e374cc8a15906957b5c424af1ed2f9c57585"
+  },
+  "oil": {
+    "n_samples": 937,
+    "n_features": 49,
+    "class_counts": {
+      "-1": 896,
+      "1": 41
+    },
+    "data_hash": "201ddbf033c5a1700f7463b0dd4ad01f66f2368d6622ff3535f8ab56e8736835"
+  },
+  "spectrometer": {
+    "n_samples": 531,
+    "n_features": 93,
+    "class_counts": {
+      "-1": 486,
+      "1": 45
+    },
+    "data_hash": "ef5337a1b75fedd181971fe1d40c9a3810e50ae5d3ba236e2fca9d0bfeff8d6a"
+  }
+}

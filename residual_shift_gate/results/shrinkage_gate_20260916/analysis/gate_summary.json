@@ -1,0 +1,42 @@
+{
+  "decision": "GO",
+  "criteria": {
+    "utility_pass_methods": [
+      "none",
+      "random_q05",
+      "smote_q05_k5"
+    ],
+    "mixed_practical_safety_pass_methods": [
+      "none",
+      "random_q05",
+      "smote_q05_k5"
+    ],
+    "shrinkage_vs_binary_mean_pass_methods": [
+      "none",
+      "random_q05",
+      "smote_q05_k5"
+    ],
+    "utility_pass": true,
+    "mixed_safety_pass": true,
+    "shrinkage_vs_binary_pass": true,
+    "practical_brier_margin": 0.01,
+    "practical_logloss_margin": 0.1
+  },
+  "qualifying_methods": [
+    "none",
+    "random_q05",
+    "smote_q05_k5"
+  ],
+  "complete": true,
+  "input_status": {
+    "status": "COMPLETE",
+    "fit_count": 108,
+    "expected_fit_count": 108,
+    "raw_rows": 32400,
+    "expected_raw_rows": 32400,
+    "protocol_hash": "57ce5eb9dc2a52a29efd2d5bfe40337581e725be1ffe70c05b8b3432aa5e527c",
+    "data_manifest_hash": "88916cad82e9cd2076e873f7d46e63afb4ac0bb9b29c80cb35c6e4b01c0b0410"
+  },
+  "effect_rows": 288,
+  "behavior_rows": 9
+}

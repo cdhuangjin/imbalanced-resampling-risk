@@ -1,0 +1,225 @@
+{
+  "schema_version": 1,
+  "raw_columns": [
+    "fit_id",
+    "dataset",
+    "learner",
+    "method",
+    "seed",
+    "scenario",
+    "severity",
+    "target_prior",
+    "covariate_severity",
+    "postprocessor",
+    "metric",
+    "value",
+    "source_prior",
+    "resampled_prior",
+    "estimated_target_prior",
+    "em_estimate",
+    "bbse_hard_estimate",
+    "bbse_soft_estimate",
+    "em_valid",
+    "bbse_hard_valid",
+    "bbse_soft_valid",
+    "em_iterations",
+    "em_converged",
+    "bbse_hard_condition_number",
+    "bbse_soft_condition_number",
+    "bbse_hard_residual",
+    "bbse_soft_residual",
+    "consensus_used_fallback",
+    "consensus_reason",
+    "residual_auc",
+    "residual_valid",
+    "residual_accepted",
+    "residual_reason",
+    "gated_used_fallback",
+    "gated_reason",
+    "shrinkage_adaptation_weight",
+    "rsc_residual_adaptation_weight",
+    "rsc_stability_weight",
+    "prior_stability_valid_rate",
+    "prior_stability_agreement_rate",
+    "prior_stability_em_std",
+    "prior_stability_replicates",
+    "rass_selected_policy",
+    "rass_reason",
+    "rass_threshold",
+    "data_hash",
+    "split_hash",
+    "target_sample_hash",
+    "config_hash",
+    "runtime_seconds",
+    "timestamp"
+  ],
+  "started_utc": "2026-09-17T00:20:04.514044+00:00",
+  "protocol": {
+    "datasets": [
+      "ecoli",
+      "yeast_me2",
+      "abalone_19",
+      "mammography",
+      "oil",
+      "spectrometer"
+    ],
+    "learners": [
+      "dt_leaf01",
+      "cat_iter500"
+    ],
+    "learner_params": {
+      "dt_leaf01": {
+        "min_samples_leaf_factor": 0.01
+      },
+      "cat_iter500": {
+        "iterations": 500
+      }
+    },
+    "methods": [
+      "none",
+      "random_q05",
+      "smote_q05_k5"
+    ],
+    "method_params": {
+      "none": {},
+      "random_q05": {
+        "ratio": 0.5
+      },
+      "smote_q05_k5": {
+        "ratio": 0.5,
+        "k": 5
+      }
+    },
+    "seeds": [
+      0,
+      1,
+      2
+    ],
+    "scenarios": [
+      {
+        "name": "iid",
+        "severity": 0,
+        "target_prior": null,
+        "covariate_severity": 0
+      },
+      {
+        "name": "label_shift",
+        "severity": 0,
+        "target_prior": 0.05,
+        "covariate_severity": 0
+      },
+      {
+        "name": "label_shift",
+        "severity": 1,
+        "target_prior": 0.2,
+        "covariate_severity": 0
+      },
+      {
+        "name": "label_shift",
+        "severity": 2,
+        "target_prior": 0.5,
+        "covariate_severity": 0
+      },
+      {
+        "name": "covariate_shift",
+        "severity": 1,
+        "target_prior": null,
+        "covariate_severity": 1
+      },
+      {
+        "name": "covariate_shift",
+        "severity": 2,
+        "target_prior": null,
+        "covariate_severity": 2
+      },
+      {
+        "name": "joint_shift",
+        "severity": 0,
+        "target_prior": 0.2,
+        "covariate_severity": 1
+      },
+      {
+        "name": "joint_shift",
+        "severity": 1,
+        "target_prior": 0.2,
+        "covariate_severity": 2
+      },
+      {
+        "name": "joint_shift",
+        "severity": 2,
+        "target_prior": 0.5,
+        "covariate_severity": 1
+      },
+      {
+        "name": "joint_shift",
+        "severity": 3,
+        "target_prior": 0.5,
+        "covariate_severity": 2
+      }
+    ],
+    "postprocessors": [
+      "platt_source",
+      "platt_target_consensus",
+      "platt_target_gated",
+      "platt_target_shrinkage",
+      "platt_target_rsc",
+      "platt_target_rass",
+      "platt_target_oracle"
+    ],
+    "policy_variant": "v5.6_regime_adaptive_stability",
+    "metrics": [
+      "auc",
+      "logloss",
+      "loss_minority",
+      "loss_majority",
+      "brier",
+      "ece_10"
+    ],
+    "residual_auc_threshold": 0.6,
+    "residual_auc_sensitivity_thresholds": [
+      0.55,
+      0.65
+    ],
+    "shrinkage_knots": {
+      "lower": 0.55,
+      "upper": 0.75
+    },
+    "prior_stability": {
+      "replicates": 16,
+      "agreement_tolerance": 0.1,
+      "stability_scale": 0.05,
+      "resampling": "target_probability_bootstrap_only"
+    },
+    "regime_switch": {
+      "threshold": 0.6,
+      "accepted_regime_policy": "v5.1_shrinkage",
+      "detected_shift_policy": "v5.5_rsc"
+    },
+    "domain_classifier": {
+      "model": "standardized_logistic_regression",
+      "solver": "liblinear",
+      "C": 1.0,
+      "max_iter": 1000,
+      "cross_folds": 3
+    },
+    "target_sample_size": "max(2000, n_test)",
+    "covariate_shift_rule": "first non-constant feature by train-fold standard deviation",
+    "data_cache": "configured through SCIKIT_LEARN_DATA or the scikit-learn default data home",
+    "source": "https://zenodo.org/record/61452/files/benchmark-imbalanced-learn.tar.gz",
+    "primary_outputs_immutable": true
+  },
+  "protocol_hash": "0e36101531b2de62cbb24913832cdbfc88d158b1bb406752151ad1a1166803ac",
+  "expected_fit_count": 108,
+  "expected_raw_rows": 45360,
+  "runner_sha256": "6363d260500ec5f439961d11e2383785e27aa2215217750ab26ee9ebabd781e6",
+  "diagnostic_sha256": "1739a6f7466df9172f832a3e52a6387a65e48d48d7b05f0fa8a217ccf4c5abe8",
+  "packages": {
+    "numpy": "2.4.4",
+    "pandas": "3.0.2",
+    "scikit-learn": "1.8.0",
+    "imbalanced-learn": "0.14.2",
+    "catboost": "1.2.10",
+    "scipy": "1.17.1"
+  },
+  "data_manifest_hash": "88916cad82e9cd2076e873f7d46e63afb4ac0bb9b29c80cb35c6e4b01c0b0410"
+}

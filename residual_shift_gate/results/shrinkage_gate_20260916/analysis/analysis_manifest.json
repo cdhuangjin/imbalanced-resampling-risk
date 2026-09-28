@@ -1,0 +1,17 @@
+{
+  "input": "<local path omitted>",
+  "input_protocol_hash": "57ce5eb9dc2a52a29efd2d5bfe40337581e725be1ffe70c05b8b3432aa5e527c",
+  "bootstrap_n": 10000,
+  "cluster_unit": "dataset",
+  "reference": "platt_source",
+  "primary_metrics": [
+    "brier",
+    "logloss"
+  ],
+  "safety_logloss_limit": 1.0,
+  "residual_threshold": 0.6,
+  "practical_brier_margin": 0.01,
+  "practical_logloss_margin": 0.1,
+  "complete_input": true,
+  "duplicate_key_rows": 0
+}

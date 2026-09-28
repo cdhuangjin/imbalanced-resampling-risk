@@ -1,0 +1,83 @@
+{
+  "schema_version": 1,
+  "started_utc": "2026-09-17T04:17:29.914347+00:00",
+  "protocol": {
+    "datasets": [
+      "ecoli",
+      "yeast_me2",
+      "abalone_19",
+      "mammography",
+      "oil",
+      "spectrometer"
+    ],
+    "learner": "xgb_gate",
+    "learner_params": {
+      "n_estimators": 1000,
+      "learning_rate": 0.1
+    },
+    "methods": [
+      "none",
+      "random_q05",
+      "smote_q05_k5",
+      "support_smote_q05"
+    ],
+    "method_params": {
+      "none": {},
+      "random_q05": {
+        "ratio": 0.5
+      },
+      "smote_q05_k5": {
+        "ratio": 0.5,
+        "k": 5
+      },
+      "support_smote_q05": {
+        "ratio": 0.5,
+        "k": 5,
+        "support_threshold": 0.5
+      }
+    },
+    "seeds": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "scenarios": [
+      "iid"
+    ],
+    "severities": [
+      0
+    ],
+    "metrics": [
+      "auc",
+      "ap",
+      "logloss",
+      "loss_minority",
+      "loss_majority",
+      "brier",
+      "f1_fixed",
+      "f1_tuned",
+      "decision_utility_c5"
+    ],
+    "decision_costs": {
+      "fn": 5.0,
+      "fp": 1.0
+    },
+    "support_definition": "minority seed kNN minority fraction >= 0.5; k=5; training split only",
+    "data_cache": "configured through SCIKIT_LEARN_DATA or the scikit-learn default data home",
+    "source": "https://zenodo.org/record/61452/files/benchmark-imbalanced-learn.tar.gz"
+  },
+  "protocol_hash": "2de9d0f1c7593026ee7eba7d9fd2ccd9453a5b533a16cc4fb661c2ac4122cbaf",
+  "expected_fit_count": 120,
+  "expected_metric_rows": 1080,
+  "packages": {
+    "numpy": "2.4.4",
+    "pandas": "3.0.2",
+    "scikit-learn": "1.8.0",
+    "imbalanced-learn": "0.14.2",
+    "catboost": "1.2.10",
+    "xgboost": "3.3.0"
+  },
+  "data_manifest_hash": "88916cad82e9cd2076e873f7d46e63afb4ac0bb9b29c80cb35c6e4b01c0b0410"
+}

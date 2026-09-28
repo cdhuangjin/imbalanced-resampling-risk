@@ -1,0 +1,80 @@
+{
+  "schema_version": 1,
+  "started_utc": "2026-09-17T05:20:04.689400+00:00",
+  "protocol": {
+    "name": "utility_first_risk_guard",
+    "datasets": [
+      "ecoli",
+      "yeast_me2",
+      "abalone_19",
+      "mammography",
+      "oil",
+      "spectrometer"
+    ],
+    "learners": [
+      "dt_leaf01",
+      "cat_iter500"
+    ],
+    "seeds": [
+      0,
+      1,
+      2
+    ],
+    "candidates": [
+      "none",
+      "random_q05",
+      "smote_q05_k5",
+      "support_smote_q05_k5"
+    ],
+    "policies": [
+      "none",
+      "random_q05",
+      "smote_q05_k5",
+      "support_smote_q05_k5",
+      "utility_guarded"
+    ],
+    "scenarios": [
+      "iid",
+      "label_shift",
+      "label_shift",
+      "label_shift"
+    ],
+    "metrics": [
+      "auc",
+      "logloss",
+      "loss_minority",
+      "loss_majority",
+      "brier",
+      "ece_10",
+      "decision_utility_c5"
+    ],
+    "threshold_grid": "0.01:0.99 step 0.01, lowest tie",
+    "decision_costs": {
+      "fn": 5.0,
+      "fp": 1.0
+    },
+    "majority_logloss_tolerance": 0.02,
+    "brier_tolerance": 0.005,
+    "validation_bootstrap_replicates": 400,
+    "validation_bootstrap_seed": 20260917,
+    "data_cache": "configured through SCIKIT_LEARN_DATA or the scikit-learn default data home",
+    "source": "https://zenodo.org/record/61452/files/benchmark-imbalanced-learn.tar.gz",
+    "primary_outputs_immutable": true
+  },
+  "protocol_hash": "b022e263d20e7ada75e170d4289ed23946b3b107b55ffed2ac03d5eedceb32ef",
+  "expected_fit_count": 36,
+  "expected_candidate_fits": 144,
+  "expected_raw_rows": 5040,
+  "runner_sha256": "ca184b0b669f59f5dc44b04fcb5a32e62dad6c6a822d23ed6a819b812adbfa87",
+  "base_runner_sha256": "ccff2ef67e1130ead8a6c6658466d5f7fe12c42f2ce55f903ed14b04f070ab70",
+  "selector_sha256": "7e23cccf7e48a3219700b9670ed8671087c6ece0a67cbaa998222dc2efe80d5d",
+  "data_manifest_hash": "88916cad82e9cd2076e873f7d46e63afb4ac0bb9b29c80cb35c6e4b01c0b0410",
+  "packages": {
+    "numpy": "2.4.4",
+    "pandas": "3.0.2",
+    "scikit-learn": "1.8.0",
+    "imbalanced-learn": "0.14.2",
+    "catboost": "1.2.10",
+    "scipy": "1.17.1"
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "integrity_pass": true,
+  "fit_count": 36,
+  "raw_rows": 5040,
+  "decision_rows": 36,
+  "duplicate_keys": 0,
+  "selection_rates": {
+    "abalone_19": 0.0,
+    "ecoli": 0.0,
+    "mammography": 0.0,
+    "oil": 0.0,
+    "spectrometer": 0.0,
+    "yeast_me2": 0.0
+  },
+  "effects": {
+    "utility_vs_none": {
+      "mean": 0.0,
+      "ci_low": 0.0,
+      "ci_high": 0.0,
+      "n_tasks": 6
+    },
+    "utility_vs_smote": {
+      "mean": 0.005118666954137344,
+      "ci_low": -0.00789915314572595,
+      "ci_high": 0.01888369705395349,
+      "n_tasks": 6
+    },
+    "majority_vs_none": {
+      "mean": 0.0,
+      "ci_low": 0.0,
+      "ci_high": 0.0,
+      "n_tasks": 6
+    },
+    "brier_vs_none": {
+      "mean": 0.0,
+      "ci_low": 0.0,
+      "ci_high": 0.0,
+      "n_tasks": 6
+    }
+  },
+  "effect_match_to_primary": {
+    "utility_vs_none": true,
+    "utility_vs_smote": true,
+    "majority_vs_none": true,
+    "brier_vs_none": true
+  },
+  "recheck_pass": true
+}

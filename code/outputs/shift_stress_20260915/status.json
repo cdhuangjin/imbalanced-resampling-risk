@@ -1,0 +1,10 @@
+{
+  "status": "COMPLETE",
+  "fit_count": 1260,
+  "expected_fit_count": 1260,
+  "raw_metric_rows": 10080,
+  "expected_metric_rows": 10080,
+  "summary_rows": 2016,
+  "protocol_hash": "8c326a112dd9cda452b330d5c5cb5e0285f1e1836f4eb9f455f73b95e748d9e0",
+  "data_manifest_hash": "88916cad82e9cd2076e873f7d46e63afb4ac0bb9b29c80cb35c6e4b01c0b0410"
+}

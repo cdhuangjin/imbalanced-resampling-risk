@@ -1,0 +1,32 @@
+{
+  "name": "confidence_guarded_rc",
+  "base_runner": "<local path omitted>",
+  "base_runner_sha256": "ccff2ef67e1130ead8a6c6658466d5f7fe12c42f2ce55f903ed14b04f070ab70",
+  "selector": "<local path omitted>",
+  "selector_sha256": "777f5446f7b977a538bc9629e5472abc8af9ad750aa11c915dfa275721baabf4",
+  "wrapper_sha256": "9ee383cfc44763ef21760d8f2cd19df2a354a52bf1d08f3e83ae1fb4b2183081",
+  "majority_logloss_tolerance": 0.02,
+  "brier_tolerance": 0.005,
+  "minority_required_improvement": 0.0,
+  "validation_bootstrap_replicates": 400,
+  "validation_bootstrap_seed": 20260917,
+  "gate_tasks": [
+    "ecoli",
+    "yeast_me2",
+    "abalone_19",
+    "mammography",
+    "oil",
+    "spectrometer"
+  ],
+  "gate_learners": [
+    "dt_leaf01",
+    "cat_iter500"
+  ],
+  "gate_seeds": [
+    0,
+    1,
+    2
+  ],
+  "base_manifest_protocol_hash": "4d2c4b1cbb62db364e8b88c4e0a43c912b99283959ac93ee8960c0c370296115",
+  "base_manifest_data_manifest_hash": "88916cad82e9cd2076e873f7d46e63afb4ac0bb9b29c80cb35c6e4b01c0b0410"
+}
